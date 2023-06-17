@@ -11,8 +11,6 @@ const BookCard = ({ book: { id, name, status, author, image } }) => {
       payload: { id, status: event.target.value },
     });
   };
-  image =
-    "https://cdn.myportfolio.com/15658835-56a5-4669-9d59-ac3bfc57684b/4ce45f83-54b0-4b2a-a982-26121d9a4df5_rw_1920.png?h=264575f403947d7069d4007280363b6c";
 
   return (
     <article className="container-book" key={id}>
