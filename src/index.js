@@ -3,14 +3,17 @@ import ReactDOM from "react-dom/client";
 import "./assets/global.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import PostsDataContextProvider from "./contexts/PostsDataContextProvider";
+import BooksDataContextProvider from "./contexts/BooksDataContextProvider";
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <PostsDataContextProvider>
-      <App />
-    </PostsDataContextProvider>
+    <BrowserRouter>
+      <BooksDataContextProvider>
+        <App />
+      </BooksDataContextProvider>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.img-cover{
+    aspect-ratio: 1/1.41;
+    width: 15rem;
+}
+
+.container-book{
+    border: 1px solid rgb(172, 172, 172);
+    display: inline-block;
+    padding: .5rem;
+    position: relative;
+}
+
+.author-tag{
+    text-align: right;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.title-tag{
+    text-align: center;
+    padding: .25rem;
+    font-family: 'Roboto', sans-serif;
+    color: #343434;
+}
+
+.drop-down{
+    position: absolute;
+    bottom: .5rem;
+
+}

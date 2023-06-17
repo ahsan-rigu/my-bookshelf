@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+
+
+.shelve{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shelve-title{
+ text-align: center;
+ padding: 1rem 0;
+ font-family: 'Cormorant Garamond', serif;
+ border-radius: 30px;
+ margin: 1rem;
+ background-color: #ffffff;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+}
